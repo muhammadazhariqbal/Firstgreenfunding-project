@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Red+Rose:wght@300&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+/* 
+font-family: 'Domine', serif;
+font-family: 'Red Rose', cursive;
+font-family: 'Rubik Mono One', sans-serif; 
+font-family: 'Manrope', sans-serif;*/
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+header , section {
+    overflow: hidden;
+}
+#contact-number {
+    background-color: #2e70a9;
+    font-family: 'Domine', serif;
+    color: #fff;
+    
+
+}
+#contact-number h2{
+    font-size: 1.2rem;
+    margin: 5px 5px;
+}
+#head{
+    background-color: #fff;
+    font-family: 'Rubik Mono One', sans-serif;
+    margin-top: 2rem;
+    padding: 2re    ;
+
+}
+#head  {
+    font-family: 'Red Rose', cursive;
+    color: black;
+}
+#header-image {
+    background-image: url(../img/header\ 3.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+   
+}
+#header-image h1 {
+    color: #fff;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+#header-image ul {
+   list-style: none;
+   color: #fff ;
+   font-family: 'Red Rose', cursive;
+   float: left;
+   
+} 
+
+#boxes .box {
+    height: 200px; 
+    width: 300px;
+    background-color: #2e70a9;
+    color: #fff;
+    box-shadow: 5px 10px 15px 0px #2e70a9;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+   
+    
+}
+
+#boxes .box h1 {
+   font-size: 1.5rem;
+   text-align: center;
+   font-family: 'Rubik Mono One', sans-serif;
+
+}
+#boxes .box p{
+  text-align: center;
+
+  font-family: 'Manrope', sans-serif;
+ }
+#content hr  {
+ border-top: 2px solid #2e70a9;
+ }
+#content h1 {
+    text-align: center;
+    color: #2e70a9;
+    font-size: 2rem;
+    font-family: 'Rubik Mono One', sans-serif;
+
+}
+#content h5 {
+    text-align: center;
+    color: #2e70a9;
+    font-size: 1.5rem;
+   
+}
+#content p {
+  color: black;
+  font-size: 0.9rem;
+  font-family: 'Manrope', sans-serif;
+ 
+
+   
+}
+#content ol {
+    color: black;
+    font-size: 0.9rem;
+    font-family: 'Manrope', sans-serif;
+   
+  
+     
+  }
+#content h6{
+    color: black;
+    font-size: 0.9rem;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+   
+  
+     
+}
+#survey_form {
+    padding: 2rem;
+    background-color: #2e70a9;
+    border-radius: 1rem;
+    text-align: center;
+    height: auto;
+    margin-bottom: 1rem;
+}
+#started-option .my-btn {
+    margin-top: 1rem;
+    background-color: black;
+    height: 4rem;
+    width: 17rem;
+    color: #fff;
+  
+    
+} 
+#started-option .my-btn:hover {
+    background-color: rgba(232,232,232,1);
+    transition-duration: .8s;
+    color: black;
+}
+#amount-dropdown {
+  display: none;
+}
+#amount-dropdown option {
+    color: black;
+  font-size: 0.9rem;
+  font-family: 'Manrope', sans-serif;
+}
+#amount-dropdown h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+ .submit-button {
+  margin-top: 1rem;
+  background-color: black;
+  box-shadow: 5px 10px 15px 0px black;
+  color: #fff;
+  font-family: 'Manrope', sans-serif;
+ 
+}
+ .submit-button:hover {
+   
+    background-color: lightgray;
+    box-shadow: 5px 10px 15px 0px lightgray;
+    color: black;
+    font-family: 'Manrope', sans-serif;
+    transition-duration: .6s;
+   
+  }
+  #data {
+    display: none;
+  }
+#data label {
+    color: black;
+    font-size: 0.9rem;
+    font-family: 'Manrope', sans-serif;
+    
+}
+#data ::placeholder {
+    
+    font-size: 0.9rem;
+    font-family: 'Manrope', sans-serif;
+    
+}
+#data option {
+    
+    color: black;
+    font-size: 0.9rem;
+    font-family: 'Manrope', sans-serif;
+    
+}
+#on_sub {
+   display: none;
+}
+#on_sub  h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Rubik Mono One', sans-serif;
+    
+}

@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1000px) {
+    #boxes .box {
+        height: auto; 
+        width: 250px;
+       
+        
+    }
+}
+@media only screen and (max-width: 777px) {
+    #boxes .box {
+        height: auto; 
+        width: 250px;
+       
+        
+    }
+   
+}
+   
+@media only screen and (max-width: 757px) {
+    #boxes .box {
+        
+        top: 0;
+        margin-top: 2rem;
+       
+        
+    }
+}
+      
+@media only screen and (max-width: 435px) {
+    #boxes .box {
+       
+        top: 0;
+        margin-top: 4rem;
+        
+       
+        
+    }
+}
